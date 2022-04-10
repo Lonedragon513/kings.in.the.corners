@@ -8,6 +8,7 @@ class KingsInTheCornersApplicationTests {
 
 	@Test
 	void contextLoads() {
+
 	}
 
 }
