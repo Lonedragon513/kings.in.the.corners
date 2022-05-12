@@ -1,5 +1,4 @@
 package org.jointheleague.api.king.repository.dto;
-
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
