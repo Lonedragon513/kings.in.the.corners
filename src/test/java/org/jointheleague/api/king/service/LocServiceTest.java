@@ -22,7 +22,7 @@ class LocServiceTest {
 
     @BeforeEach
     void setUp() {
-        MockitoAnnotations.openMocks(this);
+        MockitoAnnotations.initMocks(this);
 
         locService = new LocService(locRepository);
     }

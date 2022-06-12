@@ -23,7 +23,7 @@ class LocControllerTest {
 
     @BeforeEach
     void setUp() {
-        MockitoAnnotations.openMocks(this);
+        MockitoAnnotations.initMocks(this);
 
         locController = new LocController(locService);
     }

@@ -40,7 +40,7 @@ class LocRepositoryTest {
 
     @BeforeEach
     void setUp() {
-        MockitoAnnotations.openMocks(this);
+        MockitoAnnotations.initMocks(this);
 
         locRepository = new LocRepository(webClientMock);
     }
