@@ -1,4 +1,4 @@
-package org.jointheleague.api.king.presentation;
+package org.jointheleague.api.king;
 
 import org.jointheleague.api.king.repository.dto.Result;
 import org.jointheleague.api.king.service.LocService;

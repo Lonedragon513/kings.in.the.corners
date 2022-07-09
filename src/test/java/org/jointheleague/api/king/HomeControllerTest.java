@@ -1,4 +1,4 @@
-package org.jointheleague.api.king.presentation;
+package org.jointheleague.api.king;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package org.jointheleague.api.king.presentation;
+package org.jointheleague.api.king;
 
 
 import io.swagger.annotations.ApiOperation;
@@ -8,6 +8,7 @@ import org.jointheleague.api.king.repository.dto.Result;
 import org.jointheleague.api.king.service.LocService;
 import org.springframework.http.HttpStatus;
 import org.springframework.util.CollectionUtils;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,6 +17,7 @@ import org.springframework.web.server.ResponseStatusException;
 import java.util.List;
 
 @RestController
+@CrossOrigin
 public class LocController {
 
     private final LocService locService;
